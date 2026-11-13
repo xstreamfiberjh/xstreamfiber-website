@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#e4002b">
+<title>Airtel Xstream Fiber | Connection Enquiry</title>
+<style>
+:root{--red:#e4002b;--dark:#171717;--muted:#666;--light:#fff5f6;--line:#ececec}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:#fff;line-height:1.55}
+header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line)}
+.nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{font-size:20px;font-weight:800;color:var(--red)}.brand span{color:#222}
+nav a{color:#222;text-decoration:none;font-weight:600;margin-left:20px;font-size:14px}
+.lang{border:1px solid var(--line);background:#fff;border-radius:20px;padding:8px 13px;font-weight:700;cursor:pointer}
+.hero{background:linear-gradient(120deg,#fff4f5,#fff 65%);padding:70px 20px 60px}
+.wrap{max-width:1120px;margin:auto}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{color:var(--red);font-weight:800;letter-spacing:1.5px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:12px 0 18px;letter-spacing:-1.5px}
+.lead{font-size:18px;color:#555;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;text-decoration:none;border:0;border-radius:9px;padding:13px 19px;font-weight:800;cursor:pointer;font-size:15px}
+.primary{background:var(--red);color:white}.secondary{background:white;color:var(--red);border:1px solid #f1b6c0}
+.hero-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:27px;box-shadow:0 15px 40px #4b00100d}
+.hero-card h3{margin:0 0 10px;font-size:22px}.hero-card p{color:var(--muted);margin:0 0 15px}
+.tick{padding:9px 0;border-bottom:1px solid var(--line);font-weight:600}.tick:last-child{border:0}
+section{padding:62px 20px}.section-head{text-align:center;max-width:720px;margin:0 auto 32px}.section-head h2{font-size:32px;margin:7px 0}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:15px;padding:23px;background:#fff}
+.card h3{margin:0 0 8px;font-size:20px}.card p{color:var(--muted);margin:0 0 17px}
+.card .btn{width:100%;text-align:center}
+.coverage{background:#fafafa}.coverage-box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;text-align:center}
+.states{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:18px 0}
+.state{background:var(--light);color:var(--red);padding:9px 16px;border-radius:30px;font-weight:800}
+.note{font-size:13px;color:#777}
+.enquiry{background:#fff7f8}.form-wrap{max-width:760px;margin:auto;background:white;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 10px 30px #4b00100a}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}
+label{font-size:13px;font-weight:800}input,select,textarea{width:100%;border:1px solid #ddd;border-radius:8px;padding:12px;font:inherit;background:white}
+input:focus,select:focus,textarea:focus{outline:2px solid #ffd0d8;border-color:var(--red)}
+.gps-panel{margin-top:18px;padding:17px;border:1px dashed #e7a2ae;background:#fffafb;border-radius:12px}
+.gps-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.gps-status{font-size:13px;color:#555;margin-top:9px;overflow-wrap:anywhere}
+.consent{display:flex;gap:9px;align-items:flex-start;margin-top:13px;font-size:13px;color:#555}.consent input{width:auto;margin-top:4px}
+footer{background:#171717;color:#eee;padding:30px 20px;text-align:center}footer p{margin:6px auto;color:#c9c9c9;font-size:13px;max-width:850px}
+@media(max-width:760px){nav a{display:none}.hero-grid,.cards,.grid{grid-template-columns:1fr}.hero{padding-top:48px}.field.full{grid-column:auto}.form-wrap{padding:20px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">airtel <span>Xstream Fiber</span></div><nav><a href="#plans">Plans</a><a href="#coverage">Coverage</a><a href="#enquiry">Enquiry</a></nav><button class="lang" id="langBtn" type="button">हिंदी</button></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow" data-en="Fast internet. Easy connection enquiry." data-hi="तेज़ इंटरनेट। आसान कनेक्शन पूछताछ।">Fast internet. Easy connection enquiry.</div>
+<h1 data-en="Bring home a better internet experience." data-hi="अपने घर लाएं बेहतर इंटरनेट अनुभव।">Bring home a better internet experience.</h1>
+<p class="lead" data-en="Enquire about Airtel Xstream Fiber connections in Bihar and Jharkhand. Share your details and we’ll help check availability in your area." data-hi="बिहार और झारखंड में Airtel Xstream Fiber कनेक्शन के लिए पूछताछ करें। अपनी जानकारी भेजें और अपने इलाके में उपलब्धता चेक करवाएं।">Enquire about Airtel Xstream Fiber connections in Bihar and Jharkhand. Share your details and we’ll help check availability in your area.</p>
+<div class="actions"><a class="btn primary" href="#enquiry" data-en="Enquire Now" data-hi="अभी पूछताछ करें">Enquire Now</a><a class="btn secondary" href="https://wa.me/918252153996" target="_blank" rel="noopener">WhatsApp: 8252153996</a></div>
+</div>
+<div class="hero-card"><h3 data-en="Why enquire with us?" data-hi="यहां पूछताछ क्यों करें?">Why enquire with us?</h3><div class="tick" data-en="✓ Connection availability check" data-hi="✓ कनेक्शन उपलब्धता की जांच">✓ Connection availability check</div><div class="tick" data-en="✓ Help with current plan information" data-hi="✓ मौजूदा प्लान की जानकारी">✓ Help with current plan information</div><div class="tick" data-en="✓ Bihar & Jharkhand enquiries welcome" data-hi="✓ बिहार और झारखंड से पूछताछ आमंत्रित">✓ Bihar & Jharkhand enquiries welcome</div><p class="note" data-en="Serviceability depends on your exact location and network feasibility." data-hi="सेवा की उपलब्धता आपके सटीक स्थान और नेटवर्क पर निर्भर करेगी।">Serviceability depends on your exact location and network feasibility.</p></div>
+</div></section>
+<section id="plans"><div class="wrap"><div class="section-head"><div class="eyebrow">Airtel Xstream Fiber</div><h2 data-en="Find a plan that fits your needs" data-hi="अपनी जरूरत के अनुसार प्लान जानें">Find a plan that fits your needs</h2><p data-en="Ask us for currently available plans, speeds and offers for your location." data-hi="अपने इलाके में उपलब्ध प्लान, स्पीड और ऑफर की जानकारी पूछें।">Ask us for currently available plans, speeds and offers for your location.</p></div>
+<div class="cards"><div class="card"><h3 data-en="Home Internet" data-hi="होम इंटरनेट">Home Internet</h3><p data-en="Explore options for everyday browsing, learning and streaming." data-hi="रोज़मर्रा के इंटरनेट, पढ़ाई और स्ट्रीमिंग के विकल्प जानें।">Explore options for everyday browsing, learning and streaming.</p><a class="btn secondary" href="#enquiry" data-en="Ask for plans" data-hi="प्लान पूछें">Ask for plans</a></div>
+<div class="card"><h3 data-en="High-speed options" data-hi="हाई-स्पीड विकल्प">High-speed options</h3><p data-en="Check which speeds are currently available at your address." data-hi="अपने पते पर उपलब्ध स्पीड की जानकारी लें।">Check which speeds are currently available at your address.</p><a class="btn secondary" href="#enquiry" data-en="Check availability" data-hi="उपलब्धता जांचें">Check availability</a></div>
+<div class="card"><h3 data-en="New connection" data-hi="नया कनेक्शन">New connection</h3><p data-en="Send an enquiry and get guidance on the next steps." data-hi="पूछताछ भेजें और आगे की प्रक्रिया की जानकारी पाएं।">Send an enquiry and get guidance on the next steps.</p><a class="btn primary" href="#enquiry" data-en="Enquire now" data-hi="अभी पूछताछ करें">Enquire now</a></div></div></div></section>
+<section class="coverage" id="coverage"><div class="wrap"><div class="section-head"><div class="eyebrow" data-en="Coverage enquiries" data-hi="कवरेज पूछताछ">Coverage enquiries</div><h2 data-en="Bihar & Jharkhand" data-hi="बिहार और झारखंड">Bihar & Jharkhand</h2><p data-en="All district enquiries welcome. Final connection availability is confirmed only after checking your PIN code and exact location." data-hi="सभी जिलों से पूछताछ आमंत्रित है। अंतिम उपलब्धता PIN कोड और सटीक लोकेशन जांचने के बाद ही बताई जा सकती है।">All district enquiries welcome. Final connection availability is confirmed only after checking your PIN code and exact location.</p></div><div class="coverage-box"><div class="states"><span class="state">Bihar</span><span class="state">Jharkhand</span></div><p class="note" data-en="Enquiry coverage does not mean network service is available everywhere." data-hi="पूछताछ स्वीकार होने का मतलब यह नहीं कि हर जगह नेटवर्क सेवा उपलब्ध है।">Enquiry coverage does not mean network service is available everywhere.</p></div></div></section>
+<section class="enquiry" id="enquiry"><div class="wrap"><div class="section-head"><div class="eyebrow" data-en="Get in touch" data-hi="संपर्क करें">Get in touch</div><h2 data-en="Request a connection call-back" data-hi="कनेक्शन के लिए संपर्क अनुरोध भेजें">Request a connection call-back</h2><p data-en="Fill in your details. Your enquiry will be registered and WhatsApp will open with a message ready to send." data-hi="अपनी जानकारी भरें। आपकी पूछताछ दर्ज होगी और WhatsApp संदेश खुलेगा।">Fill in your details. Your enquiry will be registered and WhatsApp will open with a message ready to send.</p></div>
+<div class="form-wrap"><form id="enquiryForm"><div class="grid">
+<div class="field"><label for="name" data-en="Full name" data-hi="पूरा नाम">Full name</label><input id="name" required placeholder="Your name"></div>
+<div class="field"><label for="phone" data-en="Mobile number" data-hi="मोबाइल नंबर">Mobile number</label><input id="phone" required inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10" placeholder="10-digit mobile number"></div>
+<div class="field"><label for="state" data-en="State" data-hi="राज्य">State</label><select id="state" required><option value="">Select state</option><option>Bihar</option><option>Jharkhand</option></select></div>
+<div class="field"><label for="district" data-en="District" data-hi="जिला">District</label><input id="district" required placeholder="District"></div>
+<div class="field"><label for="city" data-en="City / Area" data-hi="शहर / इलाका">City / Area</label><input id="city" required placeholder="City, locality or village"></div>
+<div class="field"><label for="pin" data-en="PIN code" data-hi="पिन कोड">PIN code</label><input id="pin" required inputmode="numeric" pattern="[0-9]{6}" maxlength="6" placeholder="6-digit PIN code"></div>
+<div class="field"><label for="connectionType" data-en="Connection type" data-hi="कनेक्शन का प्रकार">Connection type</label><select id="connectionType" required><option value="">Select type</option><option value="New Connection">New Connection</option><option value="Shifting">Shifting</option></select></div>
+<div class="field full"><label for="address" data-en="Landmark / Full address (optional)" data-hi="लैंडमार्क / पूरा पता (वैकल्पिक)">Landmark / Full address (optional)</label><textarea id="address" rows="2" placeholder="Nearby landmark or address"></textarea></div>
+</div>
+<div class="gps-panel"><strong data-en="Optional: share your current GPS coordinates" data-hi="वैकल्पिक: अपनी मौजूदा GPS लोकेशन साझा करें">Optional: share your current GPS coordinates</strong><p class="note" data-en="Tap the button and allow location access in your browser. Your coordinates will be added to the WhatsApp message only when you choose to send the enquiry." data-hi="बटन दबाएं और ब्राउज़र में लोकेशन की अनुमति दें। आपके निर्देशांक WhatsApp संदेश में तभी जुड़ेंगे जब आप खुद पूछताछ भेजेंगे।">Tap the button and allow location access in your browser. Your coordinates will be added to the WhatsApp message only when you choose to send the enquiry.</p>
+<div class="gps-row"><button class="btn secondary" type="button" id="gpsBtn" data-en="Use My Current Location" data-hi="मेरी मौजूदा लोकेशन लें">Use My Current Location</button><span class="note" id="gpsStatus" aria-live="polite">GPS not shared</span></div>
+<div class="consent"><input type="checkbox" id="gpsConsent"><label for="gpsConsent" data-en="I agree to include my current GPS coordinates in this WhatsApp enquiry (optional)." data-hi="मैं इस WhatsApp पूछताछ में अपनी मौजूदा GPS लोकेशन शामिल करने की सहमति देता/देती हूं (वैकल्पिक)।">I agree to include my current GPS coordinates in this WhatsApp enquiry (optional).</label></div>
+</div>
+<div class="consent"><input type="checkbox" id="dataConsent" required><label for="dataConsent">I agree that my details may be used to respond to this connection enquiry and stored securely for follow-up. GPS is optional and shared only if separately selected.</label></div>
+<p class="note" id="submitStatus" aria-live="polite">Your enquiry will be sent to WhatsApp and submitted to the enquiry register.</p>
+<div class="actions"><button class="btn primary" type="submit" data-en="Send Enquiry on WhatsApp" data-hi="WhatsApp पर पूछताछ भेजें">Send Enquiry on WhatsApp</button></div>
+<p class="note" data-en="Your location is not tracked in the background. GPS is optional and is requested only after you tap the location button." data-hi="आपकी लोकेशन बैकग्राउंड में ट्रैक नहीं होती। GPS वैकल्पिक है और केवल लोकेशन बटन दबाने पर मांगा जाता है।">Your location is not tracked in the background. GPS is optional and is requested only after you tap the location button.</p>
+</form></div></div></section>
+</main>
+<footer><div class="brand">airtel <span style="color:#fff">Xstream Fiber</span></div><p>Enquiry contact: <a style="color:#fff" href="tel:8252153996">8252153996</a> | <a style="color:#fff" href="https://wa.me/918252153996">WhatsApp</a></p><p>This is an independently created connection enquiry page and is not the official Airtel website. Airtel name and trademarks belong to their respective owner. Connection availability, plans, pricing and installation are subject to confirmation.</p></footer>
+<script>
+let coords = null;
+const gpsBtn = document.getElementById('gpsBtn');
+const gpsStatus = document.getElementById('gpsStatus');
+gpsBtn.addEventListener('click', () => {
+  if (!document.getElementById('gpsConsent').checked) {
+    gpsStatus.textContent = 'Please tick the optional consent box first.';
+    return;
+  }
+  if (!navigator.geolocation) {
+    gpsStatus.textContent = 'GPS location is not supported by this browser. Please enter your area and PIN code.';
+    return;
+  }
+  gpsStatus.textContent = 'Requesting location permission…';
+  navigator.geolocation.getCurrentPosition(
+    position => {
+      coords = {lat: position.coords.latitude, lon: position.coords.longitude, accuracy: position.coords.accuracy};
+      gpsStatus.textContent = `Location captured: ${coords.lat.toFixed(6)}, ${coords.lon.toFixed(6)} (accuracy approx. ${Math.round(coords.accuracy)} m)`;
+    },
+    error => {
+      coords = null;
+      const messages = {1:'Location permission denied. You can continue by entering your area and PIN code.',2:'Location unavailable. Please try again or enter your area and PIN code.',3:'Location request timed out. Please try again or enter your area and PIN code.'};
+      gpsStatus.textContent = messages[error.code] || 'Could not get location. Please enter your area and PIN code.';
+    },
+    {enableHighAccuracy:true, timeout:12000, maximumAge:0}
+  );
+});
+document.getElementById('gpsConsent').addEventListener('change', e => {
+  if (!e.target.checked) { coords = null; gpsStatus.textContent = 'GPS not shared'; }
+});
+// Paste the deployed Google Apps Script Web App URL here after deployment.
+const SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+document.getElementById('enquiryForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const val = id => document.getElementById(id).value.trim();
+  const enquiryId = 'XF' + Date.now().toString().slice(-9);
+  const data = {
+    enquiryId,
+    name: val('name'),
+    mobile: val('phone'),
+    state: val('state'),
+    district: val('district'),
+    city: val('city'),
+    pin: val('pin'),
+    address: val('address'),
+    connectionType: val('connectionType'),
+    latitude: coords && document.getElementById('gpsConsent').checked ? coords.lat : '',
+    longitude: coords && document.getElementById('gpsConsent').checked ? coords.lon : ''
+  };
+
+  let msg = `Airtel Xstream Fiber Connection Enquiry%0AEnquiry ID: ${encodeURIComponent(enquiryId)}%0AName: ${encodeURIComponent(data.name)}%0AMobile: ${encodeURIComponent(data.mobile)}%0AState: ${encodeURIComponent(data.state)}%0ADistrict: ${encodeURIComponent(data.district)}%0ACity/Area: ${encodeURIComponent(data.city)}%0APIN: ${encodeURIComponent(data.pin)}%0AConnection Type: ${encodeURIComponent(data.connectionType)}%0AAddress/Landmark: ${encodeURIComponent(data.address || 'Not provided')}`;
+  if (data.latitude && data.longitude) {
+    msg += `%0AGPS Latitude: ${data.latitude}%0AGPS Longitude: ${data.longitude}`;
+  }
+
+  const status = document.getElementById('submitStatus');
+  if (SCRIPT_URL === 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE') {
+    status.textContent = 'Online record is not connected yet. Please ask the site administrator to finish setup.';
+    return;
+  }
+
+  const whatsappUrl = `https://wa.me/918252153996?text=${msg}`;
+  const waWindow = window.open(whatsappUrl, '_blank', 'noopener');
+  status.textContent = 'Submitting your enquiry…';
+
+  try {
+    const body = new URLSearchParams({payload: JSON.stringify(data)});
+    await fetch(SCRIPT_URL, {method: 'POST', mode: 'no-cors', body});
+    status.textContent = `Enquiry submission request sent. Reference ID: ${enquiryId}. Please complete WhatsApp and verify the record with the administrator.`;
+  } catch (err) {
+    status.textContent = 'Online submission could not be confirmed. Please send the WhatsApp message and contact us to verify your enquiry.';
+  }
+});
+let hindi = false;
+document.getElementById('langBtn').addEventListener('click', () => {
+  hindi = !hindi;
+  document.documentElement.lang = hindi ? 'hi' : 'en';
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = el.dataset[hindi ? 'hi' : 'en']; });
+  document.getElementById('langBtn').textContent = hindi ? 'English' : 'हिंदी';
+});
+</script>
+</body></html>
